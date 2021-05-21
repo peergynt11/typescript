@@ -5,7 +5,7 @@ let temp11 = () =>  {console.log('xx')}
 
 function callback():Observable<any> {
 let ob$ = timer(1000, 1000)
-// let ob: number[] = [1,2,3,4,5,6,7,8,9,10]
+// let ob: number[] = [1,2,3,4,5,6,7,8,9,0]
     console.log('timer initiated');
     return ob$;
 }

@@ -5,7 +5,7 @@ var operators_1 = require("rxjs/operators");
 var temp11 = function () { console.log('xx'); };
 function callback() {
     var ob$ = rxjs_1.timer(1000, 1000);
-    // let ob: number[] = [1,2,3,4,5,6,7,8,9,10]
+    // let ob: number[] = [1,2,3,4,5,6,7,8,9,0]
     console.log('timer initiated');
     return ob$;
 }

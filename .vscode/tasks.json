@@ -3,13 +3,25 @@
 	"tasks": [
 		{
 			"type": "typescript",
-			"tsconfig": "../../../../C:/Xampp/htdocs/trytypescript/tsconfig.json",
+			"tsconfig": "tsconfig.json",
 			"option": "watch",
 			"problemMatcher": [
 				"$tsc-watch"
 			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"label": "tsc: watch - tsconfig.json"
+		},
+		{
+			"type": "typescript",
+			"tsconfig": "tsconfig.json",
+			"problemMatcher": [
+				"$tsc"
+			],
 			"group": "build",
-			"label": "tsc: watch - ../../../../C:/Xampp/htdocs/trytypescript/tsconfig.json"
+			"label": "tsc: build - tsconfig.json"
 		}
 	]
 }

@@ -67,6 +67,6 @@
     "forceConsistentCasingInFileNames": true
   },
   "files": [
-    "observable/callers.ts"
+    "observable/caller.ts"
   ]  
 }
